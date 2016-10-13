@@ -1,0 +1,101 @@
+    <!-- this is the main document type of the web page-->
+    <!DOCTYPE html>
+
+    <!--default html language is english-->
+    <html lang="en">
+
+    <!--head of the web page-->
+    <head>
+        <!--title - this is the title of this html file-->
+        <title>RIM Works </title>
+        <!--style - this is used to write CSS styles on the html file-->
+        <style>
+        </style>
+        <!--script - this is used to write javascript on the html file-->
+        <script>
+        </script>
+        <!--link - this is used to link an external source-->
+        <!--this is used to source only css files and images-->
+        <link/>
+
+        <!--base - this used to specify the base URL of our web page-->
+        <!--this is optional and to be written based on server configuration-->
+        <base/>
+
+        <!--meta - this is used to describe more meta information which are not covered by the above five-->
+        <meta name="description" content="This is about HTML Responsive Web Design web page"/>
+        <meta name="keywords" content="HTML, CSS, hide, shrink, enlarge, desktop, phone, tablet" />
+        <meta name="description" content="This is the RIM works company official employee website"/>
+        <meta name="keywords" content="employee, email, employee form, form, applicant" />
+        <meta charset="UTF-8" />
+    </head>
+
+    <!--body of the web page-->
+    <body>
+
+    <!--main article for forms-->
+    <article>
+
+        <!--page header-->
+        <header>
+            <h1>Welcome to RIM works company website</h1>
+        </header>
+
+        <!--main body of the page-->
+        <section>
+            <!--form for new emplyee in RIM works-->
+            <form name="employeeForm">
+                <!--Name-->
+                <div>
+                    <label for="name">Employee Full Name:</label>
+                    <input type="text" id="name" name="Name" placeholder="Enter your full name"/>
+                </div>
+                <br />
+
+                <!--Phone Number-->
+                <div>
+                    <label for="phoneNumber">Employee's Phone Number:</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                </div>
+                <br />
+                <!--Gender-->
+                <div>
+                    <label for="gender">Employee's Gender:</label>
+                    <div id="gender">
+                        <!--male-->
+                        <label for="male">Male:</label>
+                        <input type="radio" id="male" name="gender" value="Male"/>
+
+                        <!--female-->
+                        <label for="female">Female:</label>
+                        <input type="radio" id="female" name="gender" value="Female"/>
+                    </div>
+                </div>
+                <br />
+                <!--information about veteran and married status-->
+                <div>
+                    <label for="veteran">Did you ever serve for the military?</label>
+                    <input type="checkbox" id="veteran" name="veteran" />
+                    <br/>
+                    <label for="married">Are you married?</label>
+                    <input type="checkbox" id="married" name="married" />
+                </div>
+                <br />
+                <!--submit button-->
+                <button type="submit" id="submit" class="btn btn-primary">
+                    <span>Submit</span>
+                </button>
+                <!--reset/cancel-->
+                <button type="reset" id="reset">
+                    <span>Cancel</span>
+                </button>
+            </form>
+        </section>
+                <br />
+        <!--footer of the page-->
+        <footer>
+            All rights reserved &copy RIM works
+        </footer>
+    </article>
+    </body>
+    </html>
