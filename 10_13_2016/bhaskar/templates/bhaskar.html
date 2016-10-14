@@ -1,0 +1,115 @@
+
+        <!DOCTYPE html>
+
+        <html lang="en">
+
+        <!--head of the web page-->
+        <head>
+
+            <title>RIM Works </title>
+
+            <style>
+
+            </style>
+            <!--script - this is used to write javascript on the html file-->
+            <script>
+            </script>
+            <!--link - this is used to link an external source-->
+            <!--this is used to source only css files and images-->
+            <link href="../styles/style.css" rel="stylesheet"/>
+
+
+
+            <!--meta - this is used to describe more meta information which are not covered by the above five-->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="This is the RIM works company official employee website"/>
+            <meta name="keywords" content="employee, email, employee form, form, applicant" />
+            <meta charset="UTF-8" />
+        </head>
+
+        <!--body of the web page-->
+        <body>
+
+        <!--main article for forms-->
+        <article>
+
+            <!--page header-->
+            <header>
+                <h1>Welcome to RIM works company website</h1>
+            </header>
+
+            <!--main body of the page-->
+            <section>
+                <!--form for new emplyee in RIM works-->
+                <form name="employeeForm">
+                    <!--Name-->
+                    <span>
+                        <label for="name">Employee Full Name:</label>
+                        <span>
+                        <input type="text" id="name" name="Name" placeholder="Enter your full name"/>
+                        </span>
+                    </span>
+
+
+                    <!--Phone Number-->
+                    <span>
+                        <label for="phoneNumber">Employee's Phone Number:</label>
+                        <span>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                        </span>
+                    </span>
+
+                    <span>
+                        <label for="email">email:</label>
+                        <span>
+                        <input type="text" id="email" name="email" placeholder="Enter your e-mail" />
+                        </span>
+                    </span>
+
+                    <!--Gender-->
+                    <span>
+                        <label for="gender">Employee's Gender:</label>
+                        <span id="gender">
+                            <!--male-->
+                            <label for="male">Male:</label>
+                            <span>
+                            <input type="radio" id="male" name="gender" value="Male"/>
+                            </span>
+                            <!--female-->
+                            <label for="female">Female:</label>
+                            <span>
+                            <input type="radio" id="female" name="gender" value="Female"/>
+                            </span>
+                        </span>
+                    </span>
+
+                    <!--information about veteran and married status-->
+                    <span>
+                        <label for="veteran">Did you ever serve for the military?</label>
+                        <span>
+                        <input type="checkbox" id="veteran" name="veteran" />
+                        </span>
+                        <label for="married">Are you married?</label>
+                        <span>
+                        <input type="checkbox" id="married" name="married" />
+                        </span>
+                    </span>
+
+                    <!--submit button-->
+                    <button type="submit" id="submit" class="btn btn-primary">
+                        <span>Submit</span>
+                    </button>
+                    <!--reset/cancel-->
+                    <button type="reset" id="reset" class="btn btn-secondary">
+                        <span>Cancel</span>
+                    </button>
+                </form>
+            </section>
+
+            <!--footer of the page-->
+            <footer>
+                All rights reserved &copy RIM works
+            </footer>
+        </article>
+        </body>
+        </html>

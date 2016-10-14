@@ -1,0 +1,25 @@
+            form
+                       {
+                       border: 2px solid #86dc52;
+
+                       }
+            span
+                        {
+                        display: block;
+                        }
+            .btn-primary
+                       {
+                       background-color: #008CBA;
+                       padding: 7px 20px;
+                       color: white;
+                       font-size: 16px;
+                       }
+            .btn-secondary
+                       {
+                       background-color: #f44336;
+                       color: white;
+                       padding: 7px 20px;
+                       font-size: 16px;
+                       }
+
+
