@@ -1,11 +1,6 @@
 form[name="newLicenseForm"]{
     display: block;
     border: 2px solid #000;
-<<<<<<< HEAD
-    display: inline-block;
-}
-
-=======
     width: 250px;
     margin-left: auto;
     margin-right: auto;
@@ -50,5 +45,23 @@ input{
     padding: 8px 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
->>>>>>> f41ab7c25ac310e9315436beeb7496507b8c546a
+}
+
+#main-section{
+    position: relative;
+    top: 50px;
+}
+
+#nav-heading{
+    position: absolute;
+    top: 0;
+    left: 550px;
+    background: #fff;
+}
+
+#main-heading{
+    position: fixed;
+    top: 0;
+    left: 550px;
+    background: #fff;
 }
