@@ -5,10 +5,10 @@
     <!--head of the web page-->
     <head>
         <!--title - this is the title of this html file-->
-        <title>DMV New License Form</title>
+        <title>Bhaskar Page</title>
 
         <!--this is external style-->
-        <link href="styles.css" rel="stylesheet"/>
+        <link href="bhaskar.css" rel="stylesheet"/>
     </head>
 
     <!--body of the web page-->
@@ -21,7 +21,7 @@
 
             <!--page header-->
             <header id="main-heading">
-                <h1>Welcome to my website!</h1>
+                <h1>Bhaskar welcomes you</h1>
             </header>
 
             <!--main body of the page-->
@@ -32,22 +32,18 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="https://www.google.com/maps">Maps</a>
+                                    <a href="https://www.facebook.com/">Facebook</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.google.com/mail">Mail</a>
+                                    <a href="https://www.google.com/">Google</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.google.com/images">Images</a>
+                                    <a href="http://www.espncricinfo.com/">ESPN</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.google.com/shopping">Shopping</a>
-                                </li>
-                                <li>
-                                    <a href="srikar.html">Open Srikar</a>
+                                    <a href="http://www.isro.gov.in/">ISRO</a>
                                 </li>
                             </ul>
-
                         </nav>
                     </header>
                     <section>
@@ -55,29 +51,26 @@
                         <form name="newLicenseForm">
                             <!--First Name-->
                             <div>
-                                <input type="text" id="firstName" name="fName"/>
-                                <label for="firstName">Enter your First Name</label>
+                                <label for="firstName">Applicant's First Name:</label>
+                                <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
                             </div>
                             <br />
-
                             <!--Last Name-->
                             <div>
-                                <input type="text" id="lastName" name="lName"/>
-                                <label for="lastName">Enter your Last Name</label>
+                                <label for="lastName">Applicant's Last Name:</label>
+                                <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name"/>
                             </div>
                             <br />
-
                             <!--Phone Number-->
                             <div>
-                                <input type="text" id="phoneNumber" name="phoneNumber" />
-                                <label for="phoneNumber">Enter your Phone Number</label>
+                                <label for="phoneNumber">Applicant's Phone Number:</label>
+                                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
                             </div>
                             <br />
-
                             <!--Gender-->
                             <div>
                                 <label for="gender">Applicant's Gender:</label>
-                                <fieldset id="gender">
+                                <div id="gender">
                                     <!--male-->
                                     <label for="male">Male:</label>
                                     <input type="radio" id="male" name="gender" value="Male"/>
@@ -85,16 +78,14 @@
                                     <!--female-->
                                     <label for="female">Female:</label>
                                     <input type="radio" id="female" name="gender" value="Female"/>
-                                </fieldset>
+                                </div>
                             </div>
                             <br />
-
                             <!--senior citizen-->
                             <div class="container">
                                 <label for="seniorCitizen">Is applicant a senior citizen?</label>
                                 <input type="checkbox" id="seniorCitizen" name="seniorCitizen" data-srikar="viswa"/>
                             </div>
-
                             <!--submit button-->
                             <button type="submit" id="submit">
                                 <span>Submit</span>
@@ -104,47 +95,45 @@
                                 <span>Cancel</span>
                             </button>
                         </form>
-
-
-
-
                         <div>
-                            <p>This is para1</p>
-                            <span>This is para1-2</span>
-                            <p>This is para1-3</p>
+                            <p>
+                                Please enter you details correctly.
+                            </p>
                         </div>
-
-                        <p>
-                            This is para2
-                        </p>
-
-                        <p>
-                            This is para3
-                        </p>
-
-                        <p>
-                            This is para4
-                        </p>
-
                         <div>
-                            <p>This is para5</p>
+                            <p>
+                               Once you enter them properly, you are able to write the exam.
+                            </p>
                         </div>
-
-                        <p>
-                            This is para6
-                        </p>
-
-                        <p>
-                            This is para7
-                        </p>
-
+                        <div>
+                            <span>
+                                <p>If not your application is cancelled. </p>
+                            </span>
+                        </div>
                     </section>
-                    <footer></footer>
+                    <footer id="nav-footer">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="http://www.gsk.com/">GSK</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.drreddys.com/">Dr.reddy's</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.jnj.com//">Johnson</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.unilever.com/">Unilever</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </footer>
                 </article>
             </section>
             <!--footer of the page-->
-            <footer id="main-footer">
-                I'm at the bottom
+            <footer>
+
             </footer>
         </article>
     </body>
