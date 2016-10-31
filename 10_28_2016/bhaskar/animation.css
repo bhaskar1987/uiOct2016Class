@@ -1,0 +1,76 @@
+aside.transition {
+    -webkit-transition: width 5s;
+    transition: width 5s;
+}
+
+aside.transition:hover {
+    width: 200px;
+}
+
+.firstpara {
+    transition: all 5s ease-in-out;
+}
+.firstpara:hover {
+    transform: scale(1.1);
+}
+
+li {
+    transition: all 10s ease-in-out;
+}
+li:hover {
+    transform: scale(2.2);
+}
+
+
+
+/*.box {
+
+    -webkit-transition: width 1s, height 1s,
+    -webkit-transform 1s;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.box:hover {
+
+    width: 100px;
+    height: 100px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+*/
+
+.box {
+    position: relative;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-direction: alternate;
+    /* Standard syntax */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}
