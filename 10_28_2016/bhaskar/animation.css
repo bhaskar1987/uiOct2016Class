@@ -1,5 +1,8 @@
 aside.transition {
     -webkit-transition: width 5s;
+    -moz-transition: width 5s;
+    -o-transition: width 5s;
+    -ms-transition: width 5s;
     transition: width 5s;
 }
 
@@ -40,16 +43,20 @@ li:hover {
 */
 
 .box {
-    position: relative;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-name: example;
+
+    -webkit-animation-name: bhas;
+    -o-animation-name: bhas;
     -webkit-animation-duration: 5s;
+    -o-animation-duration: 5s;
     -webkit-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
     -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
     -webkit-animation-iteration-count: 3;
+    -o-animation-iteration-count: 3;
     -webkit-animation-direction: alternate;
-    /* Standard syntax */
-    animation-name: example;
+    -o-animation-direction: alternate;
+    animation-name: bhas;
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-delay: 2s;
@@ -57,17 +64,33 @@ li:hover {
     animation-direction: alternate;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    0%   { left:0px; top:0px;}
-    25%  {left:200px; top:0px;}
-    50%  {left:200px; top:200px;}
-    75%  { left:0px; top:200px;}
-    100% { left:0px; top:0px;}
+@-webkit-keyframes bhas {
+    0%   {
+            left:0px;
+            top:0px;
+         }
+    25%  {
+            left:200px;
+            top:0px;
+         }
+    50%
+        {
+            left:200px;
+            top:200px;
+        }
+    75%
+        {
+            left:0px;
+            top:200px;
+        }
+
+    100% {
+            left:0px;
+            top:0px;
+         }
 }
 
-/* Standard syntax */
-@keyframes example {
+@keyframes bhas {
     0%   { left:0px; top:0px;}
     25%  { left:200px; top:0px;}
     50%  { left:200px; top:200px;}

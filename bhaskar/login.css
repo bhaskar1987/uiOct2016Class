@@ -1,0 +1,190 @@
+.nav-heading{
+    padding: 0px 0px;
+    font-size: 27px;
+    /* text-align: center; */
+    background: #f2dbdb;
+    box-shadow: 0px 11px 19px #5a9226;
+}
+
+.fr{
+    float:right;
+}
+.tb{
+    margin: 54px -194px;
+}
+
+.im{
+    margin: 40px -179px
+}
+
+.img1{
+    background: url("templates/IIT_Madras_Logo.svg.jpg");
+    background-repeat: no-repeat;
+    width: 89px;
+    height: 89px;
+    /* height: 49px; */
+}
+
+
+.img2{
+    background: url("templates/chem2.JPG");
+    background-repeat: no-repeat;
+    width:467px;
+    height:351px;
+}
+
+.img3{
+    background: url("templates/image3d.JPG");
+    background-repeat: no-repeat;
+    width:370px;
+    height:340px;
+}
+
+.img4{
+    background: url("templates/tubes.JPG");
+    background-repeat: no-repeat;
+    width:470px;
+    height:350px;
+}
+
+a{
+    color: #5a9226;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    margin: 40px 20px;
+}
+
+.un{
+    padding: 11px;
+}
+
+.un1{
+    padding: 11px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.mybutton{
+    padding: 8px 100px;
+    display: inline-block;
+}
+
+.lgin{
+     list-style-type: none;
+ }
+
+.lg{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.images{
+    margin-top: 247px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+
+
+button{
+    border: 1px solid #383838;
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: #fff;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.LogIn{
+    background: #80a0fc;
+}
+
+.LogIn:hover{
+    background: #fbcc23;
+    cursor:pointer;
+    border: 3px solid #f71814;
+}
+
+.Cancel{
+    background: #f71814;
+}
+
+.Cancel:hover{
+    background: #bbfd5c;
+    cursor:pointer;
+    border: 3px solid #80a0fc;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%; }
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%; }
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
+ul.bread {
+    padding: 8px 16px;
+    list-style: none;
+    background-color: #c4d3dc;
+}
+ul.bread li {display: inline;}
+ul.bread li+li:before {
+    padding: 8px;
+    color: red;
+    content: "/\00a0";
+}
+ul.bread li a {color: blue;}
